@@ -23,7 +23,6 @@ pipeline {
         }
         stage('Run Application') {
             steps {
-                // Start the JAR application
                 sh 'java -jar target/test-1.0-SNAPSHOT.jar'
             }
         }        
